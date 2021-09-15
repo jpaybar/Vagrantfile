@@ -36,5 +36,6 @@ Vagrant.configure("2") do |config|
   # Configurar proxy del sistema  
   config.vm.provision "shell", inline: <<-SHELL
     echo 'export http_proxy="http://10.40.56.3:8080"' >> /etc/environment
+    echo 'export https_proxy="http://10.40.56.3:8080"' >> /etc/environment
   SHELL
 end
