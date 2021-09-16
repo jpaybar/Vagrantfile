@@ -49,6 +49,9 @@ Vagrant.configure("2") do |config|
   # backing providers for Vagrant. These expose provider-specific options.
   # Example for VirtualBox:
   #
+  #### Configuracion de la "MV" para el proveedor "virtualbox"
+  #### http://www.virtualbox.org/manual/ch08.html#vboxmanage-modifyvm
+  #
   # config.vm.provider "virtualbox" do |vb|
   #   # Display the VirtualBox GUI when booting the machine
   #   vb.gui = true
